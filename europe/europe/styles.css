@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Fortnite;
+  src: url(Fortnite.otf);
+}
+/* Set background colour */
+body {
+  background-color: #192841;
+  color: #ffffff;
+  font-family: Arial;
+}
+.heading {
+  margin: 20px 0 0 0;
+}
+.card > img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 0 0;
+}
+.card > h3 {
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 0 0 0;
+}
+.container1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 10px
+}
+.container2 {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 20px;
+}
+.card {
+  border: 3px solid #FFFFFF;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.stickynavbar {
+  background-color: #192841;
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding: 12px
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+p {
+  margin: 10px 0px 10px 5px;
+}
+h1 {
+  color: #FFD700;
+  font-family: Fortnite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 0 0 0;
+}
+h3 {
+  color: #ffffff;
+  font-family: Fortnite;
+  margin: 0px 0px 10px 5px;
+}
+h4 {
+  color: #ffffff;
+  font-family: Fortnite;
+  margin: 40px 0px 10px 5px;
+}
+a {
+  color:#26abff;
+  text-decoration: underline;
+  margin: 10px 0px 10px 5px;
+}
+a:hover {
+  color:#1261A0;
+}
+.card < img {
+  margin: 15px 0px 60px 5px;
+  border-radius: 10%;
+}
+ul {
+  margin: 0px 0px 10px 30px;
+  list-style-type: square;
+}
+li {
+  margin-bottom: 5px;
+}
+.headingtwotwo {
+  color: #ffffff;
+  margin: 20px 0px 0px 5px;
+}
+.headingtwoone {
+  color: #ffffff;
+  margin: 20px 0px 20px 5px;
+}
+.indextitles {
+  margin: 40px 0px 10px 5px;
+}
+.uktitle {
+  margin: 20px 0px 10px 5px;
+}
+.header {
+  margin: 20px 0px 10px 0px;
+}
